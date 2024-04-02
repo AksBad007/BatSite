@@ -1,0 +1,101 @@
+body {
+  text-align: center;
+  margin: 0;
+  width: 100%;
+}
+
+.col {
+  height: 100px;
+  background-color: #686d76;
+  position: relative;
+  margin-bottom: -23px;
+}
+
+.copyright {
+  background-color: #686d76;
+}
+
+.top {
+  background-color: #686d76;
+  position: relative;
+  padding-bottom: 1.6%;
+}
+
+@media (max-width: 1400px){
+  .bat-top {
+    width: 23%;
+  }
+}
+  
+@media (max-width: 700px){
+  .bat-top {
+    width: 58%;
+  }
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: #686d76;
+  margin-top: 25px;
+  width: 30%;
+  border-width: 10px;
+}
+
+h1 {
+  font-family: "Holtwood One SC", serif;
+}
+
+h6 {
+  margin-top: -10px;
+}
+
+p {
+  font-family: "Neucha", cursive;
+  font-size: x-large;
+}
+
+.intro {
+  width: 50%;
+  margin: auto;
+}
+
+.batpic {
+  margin-top: 5%;
+  width: 120px;
+}
+
+.batarang {
+  height: 120px;
+  width: 120px;
+  margin-top: 10px;
+  float: left;
+  margin-right: 30px;
+}
+
+.batclaw {
+  height: 120px;
+  width: 120px;
+  margin-top: 10px;
+  float: right;
+  margin-left: 30px;
+}
+
+.gadget-row {
+  text-align: left;
+  width: 50%;
+  margin: 70px auto 70px auto;
+}
+
+.med {
+  line-height: 1.5;
+}
+
+span {
+  font-weight: bolder;
+}
+
+ul {
+  font-family: "Neucha", cursive;
+  font: 20px bold;
+  line-height: 1.5;
+}
